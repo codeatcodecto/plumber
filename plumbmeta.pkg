@@ -1,0 +1,25 @@
+v 3
+d 'PLUMBMETA': module to create a variable-level metadata snapshot of a dataset
+d
+d plumbmeta describes the data in memory or a dataset on disk as one row
+d per variable: position, name, storage type, format, variable label,
+d value label (and whether it is defined), non-missing, system-missing and
+d extended-missing counts, and optionally distinct count, minimum and
+d maximum. Export to .dta or TSV for data dictionaries and preservation.
+d
+d KW: data management
+d KW: metadata
+d KW: codebook
+d KW: data dictionary
+d
+d Requires: Stata version 14
+d
+d Author: Brian W. Mandikiana, SESRI, Qatar University
+d Support: email bwmandikiana@gmail.com
+d Support: https://github.com/codeatcodecto/plumber/issues
+d License: MIT
+d
+d Distribution-Date: 20261126
+d
+f plumbmeta.ado
+f plumbmeta.sthlp

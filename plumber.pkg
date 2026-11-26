@@ -1,0 +1,31 @@
+v 3
+d 'PLUMBER': module to audit changes between two stages of a data pipeline
+d
+d plumber compares a FROM dataset (an earlier pipeline stage, e.g. raw)
+d with a TO dataset (a later stage, e.g. cleaned) at eight selectable
+d levels: variable existence, storage type and format, variable labels,
+d value-label assignment, value-label definitions, case coverage, cell
+d values (eight disjoint numeric change categories, five string
+d categories) and value transitions. Results are a long audit table with
+d CRITICAL/MAJOR/MINOR/INFO/PASS severities, exportable to .dta and TSV,
+d with r() counts and a failon() gate for automated pipelines. Inputs are
+d never modified.
+d
+d KW: data management
+d KW: data cleaning
+d KW: audit
+d KW: reproducibility
+d KW: data curation
+d
+d Requires: Stata version 14
+d
+d Author: Brian W. Mandikiana, SESRI, Qatar University
+d Support: email bwmandikiana@gmail.com
+d Support: https://github.com/codeatcodecto/plumber/issues
+d License: MIT
+d
+d Distribution-Date: 20261126
+d
+f plumber.ado
+f plumber.sthlp
+f plumber_example.do

@@ -1,0 +1,23 @@
+v 3
+d 'PLUMBVIEW': module to list variable values side by side across two pipeline stages
+d
+d plumbview merges two stages of a dataset on a case key and lists the
+d FROM and TO values of selected variables side by side in long format
+d (no variable-name length limits), with an optional changed-cells-only
+d view and value-label text next to codes.
+d
+d KW: data management
+d KW: data cleaning
+d KW: audit
+d
+d Requires: Stata version 14
+d
+d Author: Brian W. Mandikiana, SESRI, Qatar University
+d Support: email bwmandikiana@gmail.com
+d Support: https://github.com/codeatcodecto/plumber/issues
+d License: MIT
+d
+d Distribution-Date: 20261126
+d
+f plumbview.ado
+f plumbview.sthlp

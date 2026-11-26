@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "plumber: audit every stage of a Stata data pipeline"
+type: software
+authors:
+  - family-names: Mandikiana
+    given-names: Brian W.
+    affiliation: "SESRI, Qatar University"
+    email: bwmandikiana@gmail.com
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT
+url: "https://github.com/codeatcodecto/plumber"
+repository-code: "https://github.com/codeatcodecto/plumber"
+keywords:
+  - Stata
+  - data management
+  - data curation
+  - audit
+  - reproducibility

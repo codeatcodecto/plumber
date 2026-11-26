@@ -1,0 +1,19 @@
+# Normalise text files; Stata reads LF and CRLF alike
+* text=auto
+*.ado    text
+*.sthlp  text
+*.do     text
+*.doh    text
+*.pkg    text
+*.toc    text
+*.md     text
+*.cff    text
+# Binary
+*.dta    binary
+*.gph    binary
+*.pdf    binary
+# GitHub language statistics
+*.ado    linguist-language=Stata
+*.do     linguist-language=Stata
+*.doh    linguist-language=Stata
+*.sthlp  linguist-documentation

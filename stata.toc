@@ -1,0 +1,11 @@
+v 3
+d plumber: audit every stage of a Stata data pipeline
+d Brian W. Mandikiana <bwmandikiana@gmail.com>, SESRI, Qatar University
+d https://github.com/codeatcodecto/plumber
+d
+d Install the four packages separately (no shared files), or run install.do.
+d
+p plumber    Compare two stages of a data pipeline: metadata, cases, values
+p plumbchain Audit a sequence of pipeline stages with plumber (needs plumber)
+p plumbmeta  Variable-level metadata snapshot of a dataset (data dictionary)
+p plumbview  Side-by-side listing of variable values across two stages

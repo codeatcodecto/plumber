@@ -1,0 +1,23 @@
+v 3
+d 'PLUMBCHAIN': module to audit every step of a multi-stage data pipeline
+d
+d plumbchain runs plumber on consecutive pipeline stages (1->2, 2->3, ...)
+d or, with the baseline option, on the first stage against every later
+d stage, and stacks the audit tables with step and stage identifiers.
+d
+d KW: data management
+d KW: audit
+d KW: pipeline
+d
+d Requires: Stata version 14 and the plumber package
+d   net install plumber, from("https://raw.githubusercontent.com/codeatcodecto/plumber/main/")
+d
+d Author: Brian W. Mandikiana, SESRI, Qatar University
+d Support: email bwmandikiana@gmail.com
+d Support: https://github.com/codeatcodecto/plumber/issues
+d License: MIT
+d
+d Distribution-Date: 20261126
+d
+f plumbchain.ado
+f plumbchain.sthlp
